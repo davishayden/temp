@@ -1,84 +1,178 @@
-<section>
-  <div class="jumbotron text-center">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
-        <img alt="MEAN.JS" class="img-responsive text-center" src="modules/core/client/img/brand/logo.png" />
+<div class="menuIcon" ng-click="toggleMenu()">
+  <span></span><span></span>
+  <span></span><span></span>
+  <span></span><span></span>
+</div>
+<div class="cd-main">
+	<ul class="cd-gallery valign-wrapper">
+		<div class="header valign center-align">
+			<div class="line"></div>
+			<div class="motto"><span>Diffe</span><span>RENT</span></div>
+			<div class="line"></div>
+			<div class="bvw">BVW Property Management</div>
+		</div>
+  </ul>
+</div>
+<div class="content">
+	<ul class="mission">
+		<li class="status"><span>Who we are</span></li>
+		<li class="text">
+			BVW Property Management is centrally located in Holland, Michigan.
+			The company was founded in 2005, as Vander Woude Property Management, LLC, by owner, Benjamin VanderWoude.
+			A merger with J/B Works, a similar property management company in January 2012, created BVW Property Management.
+			BVW strives to provide our clients with management solutions that help their properties operate smoothly,
+			increase desirability and enhance investment value.
+		</li>
+	</ul>
+	<div class="services">
+		<div class="other row">
+			<div class="col s12 l5">
+				<img src="images/leaseagreement.jpg"/>
+			</div>
+			<div class="col s12 l7 valign-wrapper">
+				<ul class="section container">
+					<li class="statement center-align"><span>What we do</span></li>
+          <div class="row valign-wrapper">
+            <div class="col s6 items">
+  						<li>Vacation Rental Management</li>
+  						<li>Real Estate Management & Leasing</li>
+  						<li>Homeowner Assistance & Management</li>
+  						<li>Contract Administration and Accounting</li>
+            </div>
+            <div class="col s6 items">
+    					<li>General Construction & Maintenance Services</li>
+    					<li>On-Site Inspections</li>
+    					<li>Assist/Supervise Resident Managers</li>
+    					<li>Online Account Availability</li>
+            </div>
+          </div>
+				</ul>
+			</div>
+		</div>
+		<div class="long-term row">
+			<div class="col s12 hide-on-large-only">
+				<img src="images/residents1.png"/>
+			</div>
+			<div class="col s12 l7 valign-wrapper">
+				<ul class="section container">
+					<li class="statement center-align"><span>Welcome Home</span></li>
+					<li class="text">
+						Reliable assistance from qualified staff is available 24/7 to address any maintenance issues as it relates to your safety or the integrity of the property.
+						Your comfort and safety are important to us and a sense of security is one of the many benefits to choosing to live in a home managed by BVW.
+					</li>
+				</ul>
+			</div>
+			<div class="col s12 l5 hide-on-med-and-down">
+				<img src="images/residents1.png"/>
+			</div>
+		</div>
+		<div class="vacation row">
+			<div class="col s12 l5">
+				<img src="images/vacation1.png"/>
+        <div class="shadow"></div>
+			</div>
+			<div class="col s12 l7 valign-wrapper">
+				<ul class="section container">
+					<li class="statement center-align"><span>Relax anywhere</span></li>
+					<li class="text">
+						We Manage Some Of The Area's Most Desirable Vacation Rentals!
+						Our progressive staff is dedicated to providing the high quality services and attention to detail necessary to offer well managed,
+						beautiful vacation homes to you, our guests.
+						We are available to you 24/7 to ensure your stay continues to be comfortable, safe, and fun.
+						For more information on our unique vacation rentals, contact Susan at 616-594-0797 x 600
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="owners row">
+			<div class="col s12 hide-on-large-only">
+				<img src="images/owners1.png"/>
+			</div>
+			<div class="col s12 l7 valign-wrapper">
+				<ul class="section container">
+					<li class="statement center-align"><span>Grow your investments</span></li>
+					<li class="text">
+						Property owners throughout the area depend on us to help achieve their goals of high occupancy rates and profitability.
+						Whether your properties are apartments, single family homes, or duplexes, our company ensures that they are well managed
+						to attract and retain happy tenants. We guarantee satisfaction and will beat any price. Call us for a free assessment.
+					</li>
+				</ul>
+			</div>
+			<div class="col s12 l5 hide-on-med-and-down">
+				<img src="images/owners1.png"/>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="more valign-wrapper">
+	<div class="valign container">
+		<div class="row">
+			<div class="col s12 l7">
+				<h3>BVW Property Management</h3>
+				<h5>Let our dedicated staff guide your next move</h5>
+			</div>
+			<div class="col s12 l5">
+			  <a class="waves-effect waves-orange btn-flat" ng-click="openContactNoMenu()">Contact Us</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bumper"><div class="left">©2016 BVW Property Management</div><div class="right">Site by NomadTech</div></div>
+<div class="cd-folding-panel">
+  <div class="fold-left"></div>
+  <div class="fold-right"></div>
+  <div class="cd-fold-content">
+		<ul>
+			<li><a href="" ng-click="goToAbout()">About Us</a></li>
+			<li><a href="http://vwpm.propertyware.com/index.html" target="_blank" ng-click="closeMenu()">Apply Here</a></li>
+			<li><a href="http://vwpm.propertyware.com/index.html" target="_blank" ng-click="closeMenu()">Member Portal</a></li>
+			<li><a href="https://www.vrbo.com/my/8c150bc7-f4c6-4445-96a1-b581a398130b/usa" target="_blank" ng-click="closeMenu()">Vacation Rentals</a></li>
+			<li><a href="" ng-click="openContact()">Contact Us</a></li>
+		</ul>
+		<img class="des" src="images/triangles.png"/>
+  </div>
+</div>
+<div class="modal bottom-sheet contact">
+  <img class="modal-close" src="images/close.png" ng-click="closeModal()"/>
+  <div class="top"></div>
+  <div class="bottom"></div>
+	<div class="modal-content row">
+    <div class="information hoverable">
+      <div class="col s8 valign-wrapper">
+        <div class="row valign">
+          <div class="col s6">
+            <ul class="row info">
+              <li class="col s12 label">Phone</li>
+              <li class="col s12">+6165940797</li>
+            </ul>
+            <ul class="row info">
+              <li class="col s12 label">Fax</li>
+              <li class="col s12">+6164266172</li>
+            </ul>
+            <ul class="row info">
+              <li class="col s12 label">Email</li>
+              <li class="col s12">info@bvwpm.com</li>
+            </ul>
+          </div>
+          <div class="col s6">
+            <ul class="row info">
+              <li class="col s12 label">Location</li>
+              <li class="col s12">1128 Ottawa Beach RD <br> Holland, MI 49424</li>
+            </ul>
+            <ul class="row info">
+              <li class="col s12 label">Mailing Address</li>
+              <li class="col s12">PO Box 2397 Holland, MI 49423</li>
+            </ul>
+            <ul class="row info">
+              <li class="col s12 label">Hours</li>
+              <li class="col s12">Monday - Friday <br> 9 A.M. - 5 P.M.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col s4 center-align">
+        <img class="mailbox" src="images/mailbox.png"/>
       </div>
     </div>
-    <br>
-    <div class="row">
-      <p class="lead">
-        Open-Source Full-Stack Solution For MEAN Applications
-      </p>
-    </div>
-    <div class="row">
-      <p>
-        <a class="btn btn-primary btn-lg" href="http://meanjs.org" target="_blank">Learn more</a>
-      </p>
-    </div>
-  </div>
-  <div>
-    <h2>Congrats! You've configured and run the sample application.</h2>
-    <p>MEAN.JS is a web application boilerplate, which means you should start changing everything :-)</p>
-    <p>This sample application tracks users and articles.</p>
-    <ul>
-      <li>
-        Click
-        <em>Sign Up</em> to get started.
-      </li>
-      <li>
-        Configure your app to work with your social accounts, by editing the
-        <em>/config/env/*.js</em> files.
-      </li>
-      <li>
-        Edit your users module.
-      </li>
-      <li>
-        Add new CRUD modules.
-      </li>
-      <li>
-        Have fun...
-      </li>
-    </ul>
-  </div>
-  <div class="row">
-    <div class="col-md-3">
-      <h2><strong>M</strong>ongoDB</h2>
-      <p><a target="_blank" href="http://mongodb.org/">MongoDB</a> is a NoSQL database. MongoDB's <a target="_blank" href="http://docs.mongodb.org/manual/">great manual</a> is the place to get started with NoSQL and MongoDB.</p>
-    </div>
-    <div class="col-md-3">
-      <h2><strong>E</strong>xpress</h2>
-      <p><a target="_blank" href="http://expressjs.com/"> Express</a> is a NodeJS server-side application web framework. Check out <a target="_blank" href="http://expressjs.com/4x/api.html">The ExpressJS API reference for more information</a> or <a target="_blank" href="http://stackoverflow.com/questions/8144214/learning-express-for-node-js">StackOverflow</a> for more info.</p>
-    </div>
-    <div class="col-md-3">
-      <h2><strong>A</strong>ngularJS</h2>
-      <p><a target="_blank" href="http://angularjs.org/">AngularJS</a> is client-side web application framework. The <a target="_blank" href="http://www.thinkster.io/">Thinkster Popular Guide</a> and <a target="_blank" href="https://egghead.io/">Egghead Videos</a> are great resources.</p>
-    </div>
-    <div class="col-md-3">
-      <h2><strong>N</strong>ode.js</h2>
-      <p><a target="_blank" href="http://nodejs.org/">Node.js</a> is a JavaScript run-time, popular for being a web server platform. Node's website and this <a target="_blank" href="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js">stackOverflow thread</a> offer excellent starting points to get to grasps with node.</p>
-    </div>
-  </div>
-  <div class="well">
-    <h2>MEAN.JS Documentation</h2>
-    <p>
-      Once you're familiar with the foundation technology, check out the MEAN.JS Documentation:
-      <ul>
-        <li><a target="_blank" href="http://meanjs.org/docs.html">MEAN.JS Documentation</a>
-        </li>
-        <!-- <li><a target="_blank" href="http://meanjs.org/generator.html">Yeoman Generator</a>
-				</li> -->
-        <li><a target="_blank" href="http://meanjs.org/modules.html">Modules</a>
-        </li>
-        <li><a target="_blank" href="http://meanjs.org/changelog.html">Changelog</a>
-        </li>
-        <li><a target="_blank" href="http://meanjs.org/community.html">Community</a>
-        </li>
-        <li><a target="_blank" href="http://blog.meanjs.org">Blog</a>
-        </li>
-      </ul>
-    </p>
-  </div>
-  <br>Enjoy &amp; Keep Us Updated,
-  <br>The MEAN.JS Team.
-</section>
+	</div>
+</div>
