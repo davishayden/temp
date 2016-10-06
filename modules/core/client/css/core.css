@@ -1,4 +1,4 @@
-/*.content {
+.content {
   margin-top: 50px;
 }
 .undecorated-link:hover {
@@ -40,7 +40,8 @@ a:hover .header-profile-image {
 }
 .has-error .help-inline.error-text {
   display: inline;
-}*/
+}
+/*
 html, body, main {
   height: 100vh;
   padding: 0;
@@ -121,7 +122,7 @@ body.loaded .line {
   letter-spacing: 0.35em;
   text-transform: uppercase;
   opacity: 0;
-  -webkit-transition-delay: 5s; /* Safari */
+  -webkit-transition-delay: 5s; /* Safari
   transition-delay: 5s;
   transition: opacity 3s;
   -moz-transition: opacity 3s;
@@ -301,3 +302,4 @@ img.des {
   right: 0;
   display: none;
 }
+*/
