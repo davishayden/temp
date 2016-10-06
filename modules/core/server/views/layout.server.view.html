@@ -36,9 +36,10 @@
 </head>
 
 <body class="ng-cloak">
-  <main>
-    <div ng-view=""></div>
-    {% block content %}{% endblock %}
+  <main class="content">
+    <section class="container">
+      {% block content %}{% endblock %}
+    </section>
   </main>
 
   <!--Embedding The User Object-->

@@ -5,7 +5,7 @@
     .module('core')
     .controller('HomeController', HomeController);
 
-  function HomeController() {
+  function HomeController($scope, $timeout, $window) {
     $timeout(function() { $('body').addClass('loaded'); }, 100);
     $timeout(function() { $('.bvw').addClass('fade'); }, 2500);
     $timeout(function() { $('.motto span:last-child').addClass('fade'); }, 3500);
