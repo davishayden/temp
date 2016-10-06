@@ -1,0 +1,104 @@
+.modal.contact {
+  height: 50vh;
+  max-height: 80vh;
+  overflow: hidden;
+  background: #D32F2F;
+}
+.modal-content.row, .modal-content.row .col {
+  height: 100%;
+}
+.row {
+  margin: 0;
+}
+.services .row .col, .services.row {
+  padding: 0;
+  line-height: 0;
+  height: 100%;
+}
+img.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  height: 45px;
+  color: #F8F8FF;
+}
+.information {
+  height: 40vh;
+  width: 75vw;
+  top: 5vh;
+  left: 12.5vw;
+  position: absolute;
+  background: #2A2A2A;
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.62), 0 25px 55px 0 rgba(0, 0, 0, 0.31);
+}
+.title {
+  color: #2A2A2A;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  font-size: 1.65rem;
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 7.5vw;
+  background: #C52427;
+  padding: 10px;
+  z-index: 999;
+}
+.row.valign {
+  margin-top: 1em;
+}
+.row.info {
+  color: #F8F8FF;/*#FCF4DE;*/
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+.row.info > * {
+  opacity: 0;
+}
+.label {
+  color: #00A8CF;
+  /*color: #7C6655;
+  color: #646363;*/
+}
+.top {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30vh 45vw 0 0;
+  border-color: #FCF4DE transparent transparent transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bottom {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 30vh 45vw;
+  border-color: transparent transparent #C52427 transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.little {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 10px 0 10px;
+  border-color: #646363 transparent transparent transparent;
+  position: absolute;
+  top: 8vh;
+  left: 5vw;
+}
+img.divide {
+  height: 0px;
+  position: absolute;
+  top: calc(20vh - 24px);
+  left: calc(17.5vw - 24px);
+}
+img.mailbox {
+  height: 80%;
+  margin-top: 10%;
+  opacity: 0;
+}
